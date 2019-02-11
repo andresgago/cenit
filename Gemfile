@@ -125,7 +125,7 @@ gem 'aws-sdk', '~> 2.10.13'
 gem 'net-scp'
 gem 'net-sftp'
 
-gem 'mongoid-tracer', git: 'https://github.com/macarci/mongoid-tracer.git'
+gem 'mongoid-tracer', path: '../mongoid-tracer/'
 gem 'diffy'
 
 gem 'pdf-forms', '~> 1.1', '>= 1.1.1'

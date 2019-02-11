@@ -55,13 +55,6 @@ GIT
       mongoid (>= 5.0.1)
 
 GIT
-  remote: https://github.com/macarci/mongoid-tracer.git
-  revision: eca89bbc00ff5d1155bf7a790a01fc7cafd9de94
-  specs:
-    mongoid-tracer (0.0.1)
-      mongoid (>= 5.0.1)
-
-GIT
   remote: https://github.com/mobmewireless/origami-pdf.git
   revision: bf9ceea933fb88b5c8e0d3185b6eb875dd9187cf
   specs:
@@ -75,6 +68,12 @@ GIT
       chartkick (> 0)
       rails (>= 3.2)
       rails_admin (> 0)
+
+PATH
+  remote: ../mongoid-tracer
+  specs:
+    mongoid-tracer (0.0.1)
+      mongoid (>= 5.0.1)
 
 GEM
   remote: https://rubygems.org/
